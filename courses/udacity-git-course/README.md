@@ -6,6 +6,8 @@
 
 **Status**: ✅ Completed
 
+**Completion Date**: February 2024
+
 **Certificate**: This course does not provide a certificate.
 
 ---

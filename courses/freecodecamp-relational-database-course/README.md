@@ -6,6 +6,8 @@
 
 **Status**: ✅ Completed
 
+**Completion Date**: August 2024
+
 **Certificate**: [📜 View Certificate](https://freecodecamp.org/certification/luabelo/relational-database-v8)
 
 ---

@@ -6,6 +6,8 @@
 
 **Status**: ✅ Concluído
 
+**Data de Conclusão**: Novembro de 2022
+
 **Certificado**: [📜 Visualizar Certificado](https://webdoc.usjt.br/SOL/codigoFonte/geral/SOL_384.php?codInstituicao=8) / Código de Controle: LCON-GPBO-YAFF-KYYF
 
 ---

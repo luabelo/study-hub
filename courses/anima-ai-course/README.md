@@ -6,6 +6,8 @@
 
 **Status**: 🔄 Em andamento
 
+**Data de Conclusão**: 
+
 **Certificado**: Disponível após a conclusão do curso.
 
 ---
