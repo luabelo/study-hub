@@ -1,0 +1,121 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+}
+
+header {
+  background: #ddd;
+  padding: 10px;
+}
+
+.nav-bar {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.nav-bar input {
+  flex: 1;
+  padding: 5px;
+}
+
+main {
+  padding: 20px;
+}
+
+.add-lembrete {
+  margin-bottom: 20px;
+}
+
+.add-lembrete input {
+  padding: 8px;
+  width: 60%;
+  margin-right: 10px;
+}
+
+.add-lembrete button {
+  padding: 8px 16px;
+  cursor: pointer;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.add-lembrete button:hover {
+  background: #45a049;
+}
+
+.lembrete {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.lembrete-card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  width: 300px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.card-header h3 {
+  margin-top: 0;
+  flex: 1;
+}
+
+.delete-btn {
+  background: #ff4444;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 20px;
+  padding: 0;
+}
+
+.delete-btn:hover {
+  background: #cc0000;
+}
+
+.lembrete-card ul {
+  padding-left: 20px;
+}
+
+.observation-input {
+  margin-top: 10px;
+  display: flex;
+  gap: 5px;
+}
+
+.observation-input input {
+  flex: 1;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.observation-input button {
+  padding: 5px 10px;
+  cursor: pointer;
+  background: #2196F3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.observation-input button:hover {
+  background: #0b7dda;
+}
