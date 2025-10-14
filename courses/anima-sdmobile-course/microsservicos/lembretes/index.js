@@ -1,3 +1,4 @@
+const axios = require('axios')
 const express = require('express')
 const app = express()
 app.use(express.json())
@@ -14,7 +15,16 @@ app.post('/lembretes', (req, res) => {
     const lembrete = {id, texto}
     baseLembretes[id] = lembrete
     id++
+    axios.post("http://localhost:10000/eventos", {
+        tipo: "LembreteCriado",
+        dados: lembrete
+    })
     res.json(lembrete)
+})
+
+app.post('/eventos', (req, res) => {
+    console.log(req.body)
+    res.status(200).end()
 })
 
 const port = 4000
